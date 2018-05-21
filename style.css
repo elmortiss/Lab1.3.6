@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+
+}
+
+header{
+	width:100%;
+	display:inline-block;
+	background-color:#00ced1;
+	text-align:left;
+	padding:15px;
+}
+
+header >button{
+	background-color: #9400d3;
+	color:#fff;
+	padding:15px;
+	margin-right:20px;
+}
+
+.sidebar{
+	min-width:30%;
+	display:inline-block;
+	background-color: #ffe4c4;
+	margin-top:40px;
+	padding:15px;
+}
+
+.sidebar >button{
+	width:45%;
+	background-color: #deb887;
+	border: 1px solid #a52a2a;
+	color: #fff;
+	padding:15px;
+	margin-right: 2%;
+}
